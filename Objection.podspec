@@ -1,9 +1,9 @@
 Pod::Spec.new do |s|
-  s.name         = 'Objection'
-  s.version      = '1.6.1'
+  s.name         = 'MJObjection'
+  s.version      = '1.6.2'
   s.summary      = 'A lightweight dependency injection framework for Objective-C.'
-  s.author       = { 'Justin DeWind' => 'dewind@atomicobject.com' }
-  s.source       = { :git => 'https://github.com/atomicobject/objection.git', :tag => "#{s.version}" }
+  s.author       = { 'Justin DeWind & Mobile Jazz' => 'info@mobilejazz.com' }
+  s.source       = { :git => 'https://github.com/mobilejazz/objection.git', :tag => "#{s.version}" }
   s.homepage     = 'http://www.objection-framework.org'
   s.source_files = 'Source'
   s.license      = { :type => "MIT" }
