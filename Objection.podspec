@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name         = 'MJObjection'
+  s.name         = 'Objection'
   s.version      = '1.6.2'
   s.summary      = 'A lightweight dependency injection framework for Objective-C.'
   s.author       = { 'Justin DeWind & Mobile Jazz' => 'info@mobilejazz.com' }
