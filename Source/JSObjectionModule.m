@@ -22,8 +22,8 @@
     return self;
 }
 
-- (id)provide:(JSObjectionInjector *)context arguments:(NSArray *)arguments {
-    return [context getObject:_class argumentList:arguments];
+- (id)provide:(JSObjectionInjector *)context arguments:(NSArray *)arguments inModuleClass:(__unsafe_unretained Class)moduleClass {
+    return [context getObject:_class named:nil initializer:nil argumentList:arguments incomingModuleClass:moduleClass];
 }
 
 @end

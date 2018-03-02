@@ -50,7 +50,7 @@
         objectUnderConstruction = _block(self.injector);
     }
     else {
-        objectUnderConstruction = [_provider provide:self.injector arguments:arguments];
+        objectUnderConstruction = [_provider provide:self.injector arguments:arguments inModuleClass:self.incomingModuleClass];
     }
     if (self.lifeCycle == JSObjectionScopeSingleton) {
         _storageCache = objectUnderConstruction;

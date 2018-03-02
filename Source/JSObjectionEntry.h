@@ -13,6 +13,7 @@ typedef enum {
 
 @property (nonatomic, readonly) JSObjectionScope lifeCycle;
 @property (nonatomic, assign) JSObjectionInjector *injector;
+@property (nonatomic, strong) Class incomingModuleClass;
 
 @required
 - (id)extractObject:(NSArray *)arguments;
@@ -24,7 +25,5 @@ typedef enum {
 
 
 @interface JSObjectionEntry : NSObject<JSObjectionEntry>
-
-@property (nonatomic, strong) Class incomingModuleClass;
 
 @end

@@ -4,6 +4,7 @@
 
 @synthesize injector;
 @dynamic lifeCycle;
+@synthesize incomingModuleClass;
 
 - (id)extractObject:(NSArray *)arguments {
     return nil;

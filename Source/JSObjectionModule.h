@@ -5,7 +5,7 @@
 
 @protocol JSObjectionProvider<NSObject>
 
-- (id)provide:(JSObjectionInjector *)context arguments:(NSArray *)arguments;
+- (id)provide:(JSObjectionInjector *)context arguments:(NSArray *)arguments inModuleClass:(Class)moduleClass;
 
 @end
 

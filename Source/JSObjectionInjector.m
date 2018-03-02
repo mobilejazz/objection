@@ -115,6 +115,10 @@
 }
 
 - (id)getObject:(id)classOrProtocol named:(NSString*)name initializer:(SEL)selector argumentList:(NSArray *)argumentList {
+    return [self getObject:classOrProtocol named:name initializer:selector argumentList:argumentList incomingModuleClass:nil];
+}
+
+- (id)getObject:(id)classOrProtocol named:(NSString*)name initializer:(SEL)selector argumentList:(NSArray *)argumentList incomingModuleClass:(Class)moduleClass {
     @synchronized(self) {
         if (!classOrProtocol) {
             return nil;
@@ -141,10 +145,12 @@
             if (entry) {
                 injectorEntry = [[entry class] entryWithEntry:entry];
                 injectorEntry.injector = self;
+                injectorEntry.incomingModuleClass = moduleClass;
                 [_context setObject:injectorEntry forKey:key];
             } else if(isClass) {
                 injectorEntry = [JSObjectionInjectorEntry entryWithClass:classOrProtocol scope:JSObjectionScopeNormal];
                 injectorEntry.injector = self;
+                injectorEntry.incomingModuleClass = moduleClass;
                 [_context setObject:injectorEntry forKey:key];
             }
         }
