@@ -33,7 +33,6 @@ Pod::Spec.new do |s|
     s.osx.deployment_target = '10.8'
     s.tvos.deployment_target = '9.0'
     
-    s.source_files = 'MJObjection/MJObjection.h'
     s.default_subspecs = 'Common'
     
     s.subspec 'Common' do |sp|

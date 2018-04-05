@@ -21,6 +21,7 @@
 #import "JSObjectionRuntimePropertyReflector.h"
 #import "JSObjectionUtils.h"
 #import "MJObjection.h"
+#import "MJObjectionCommon.h"
 #import "NSObject+Objection.h"
 
 FOUNDATION_EXPORT double MJObjectionVersionNumber;

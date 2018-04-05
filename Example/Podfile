@@ -2,7 +2,8 @@ use_frameworks!
 platform :ios, '9.0'
 
 target 'MJObjection_Example' do
-  pod 'MJObjection/Swift', :path => '../'
+    pod 'MJObjection/Swift', :path => '../'
+    #pod 'MJObjection', :path => '../'
 
   target 'MJObjection_Tests' do
     inherit! :search_paths
