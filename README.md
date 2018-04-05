@@ -1,4 +1,25 @@
-[![Build Status](https://travis-ci.org/atomicobject/objection.png)](https://travis-ci.org/atomicobject/objection)
+[![Build Status](https://travis-ci.org/mobilejazz/objection.png)](https://travis-ci.org/mobilejazz/objection)
+
+## Mobile Jazz Fork Notes
+
+This repository is a fork of the [Objection repository](https://github.com/atomicobject/objection). As the original project was not maintained anymore, we decided to fork it and add new features and maintain the code base. 
+
+The usage of the forked library is exactly the same. The only thing changing is the pod name, from *Objection* to *MJObjection*, and the main import file which now is called *MJObjection.h*. All other classes and files keep the same name.
+
+To install the pod use:
+
+```
+pod 'MJObjection'
+```
+
+### Additional Features
+
+This forked version of Objection contains the following additional features:
+
+- Ability to load additional modules a given injector
+- Ability to unload loaded modules from a given injector
+
+# Objection
 
 ## Description
 
