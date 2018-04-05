@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
     s.name             = 'MJObjection'
-    s.version          = '1.6.4'
+    s.version          = '1.7.0'
     s.summary          = 'A lightweight dependency injection framework for Objective-C.'
     
     # This description is used to generate tags and improve search results.
@@ -29,9 +29,19 @@ Pod::Spec.new do |s|
     s.social_media_url = 'https://twitter.com/mobilejazzcom'
     
     s.requires_arc = true
-    s.ios.deployment_target = '7.0'
+    s.ios.deployment_target = '9.0'
     s.osx.deployment_target = '10.8'
     s.tvos.deployment_target = '9.0'
-
-    s.source_files = 'Source'
+    
+    s.source_files = 'MJObjection/MJObjection.h'
+    s.default_subspecs = 'Common'
+    
+    s.subspec 'Common' do |sp|
+        sp.source_files = 'MJObjection/Classes/Common/**/*'
+    end
+    
+    s.subspec 'Swift' do |sp|
+        sp.source_files = 'MJObjection/Classes/Swift/**/*'
+        sp.dependency 'MJObjection/Common'
+    end
 end

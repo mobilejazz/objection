@@ -1,0 +1,6 @@
+framework module Pods_MJObjection_Tests {
+  umbrella header "Pods-MJObjection_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
