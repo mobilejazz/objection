@@ -1,5 +1,5 @@
 #import "Fixtures.h"
-#import "Objection.h"
+#import "MJObjection.h"
 #import "CircularDependencyFixtures.h"
 
 @implementation Engine

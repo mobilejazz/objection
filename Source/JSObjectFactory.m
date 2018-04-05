@@ -1,5 +1,5 @@
 #import "JSObjectFactory.h"
-#import "Objection.h"
+#import "MJObjection.h"
 
 @implementation JSObjectFactory
 

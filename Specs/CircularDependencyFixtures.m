@@ -1,4 +1,4 @@
-#import "Objection.h"
+#import "MJObjection.h"
 #import "CircularDependencyFixtures.h"
 #import "Fixtures.h"
 

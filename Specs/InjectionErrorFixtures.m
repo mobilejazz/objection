@@ -1,5 +1,5 @@
 #import "InjectionErrorFixtures.h"
-#import "Objection.h"
+#import "MJObjection.h"
 
 @implementation UnsupportedPropertyObject
 objection_register(UnsupportedPropertyObject)
