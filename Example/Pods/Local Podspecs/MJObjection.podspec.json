@@ -22,6 +22,7 @@
     "osx": "10.8",
     "tvos": "9.0"
   },
+  "source_files": "MJObjection/MJObjectionBlank.h",
   "default_subspecs": "Common",
   "subspecs": [
     {
