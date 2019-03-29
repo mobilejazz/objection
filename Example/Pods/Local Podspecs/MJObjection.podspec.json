@@ -22,5 +22,5 @@
     "osx": "10.8",
     "tvos": "9.0"
   },
-  "source_files": "MJObjection/Classes/*.{h,m}"
+  "source_files": "Source Code/*.{h,m}"
 }
