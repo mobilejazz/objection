@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
     #   * Finally, don't worry about the indent, CocoaPods strips it!
     
     s.description      = <<-DESC
-    A lightweight dependency injection framework for Objective-C.
+    A lightweight dependency injection framework for Objective-C based on the Objection library.
     DESC
     
     s.homepage         = 'https://github.com/mobilejazz/objection'
@@ -29,9 +29,10 @@ Pod::Spec.new do |s|
     s.social_media_url = 'https://twitter.com/mobilejazzcom'
     
     s.requires_arc = true
+    
     s.ios.deployment_target = '9.0'
     s.osx.deployment_target = '10.8'
     s.tvos.deployment_target = '9.0'
     
-    s.source_files = 'MJObjection/Classes/*'
+    s.source_files = 'MJObjection/Classes/*.{h,m}'
 end

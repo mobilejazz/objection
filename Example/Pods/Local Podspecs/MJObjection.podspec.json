@@ -2,7 +2,7 @@
   "name": "MJObjection",
   "version": "1.7.1",
   "summary": "A lightweight dependency injection framework for Objective-C.",
-  "description": "A lightweight dependency injection framework for Objective-C.",
+  "description": "A lightweight dependency injection framework for Objective-C based on the Objection library.",
   "homepage": "https://github.com/mobilejazz/objection",
   "license": {
     "type": "Apache License, Version 2.0",
@@ -22,5 +22,5 @@
     "osx": "10.8",
     "tvos": "9.0"
   },
-  "source_files": "MJObjection/Classes/*"
+  "source_files": "MJObjection/Classes/*.{h,m}"
 }
