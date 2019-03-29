@@ -210,7 +210,6 @@
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
 				4A04EA6A8E58508BE782DFC4 /* [CP] Embed Pods Frameworks */,
-				8843A1D6E27A8ACE56829C7B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -229,8 +228,6 @@
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				A4E38604365DBDA410D7EB5D /* [CP] Embed Pods Frameworks */,
-				679E39B31FCCB0FBFA2EDA62 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -345,7 +342,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-MJObjection_Example/Pods-MJObjection_Example-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-MJObjection_Example/Pods-MJObjection_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/MJObjection/MJObjection.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -354,52 +351,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MJObjection_Example/Pods-MJObjection_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		679E39B31FCCB0FBFA2EDA62 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MJObjection_Tests/Pods-MJObjection_Tests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		8843A1D6E27A8ACE56829C7B /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MJObjection_Example/Pods-MJObjection_Example-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A4E38604365DBDA410D7EB5D /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MJObjection_Tests/Pods-MJObjection_Tests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MJObjection_Example/Pods-MJObjection_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */

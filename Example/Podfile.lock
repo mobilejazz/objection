@@ -1,18 +1,16 @@
 PODS:
-  - MJObjection/Common (1.7.0)
-  - MJObjection/Swift (1.7.0):
-    - MJObjection/Common
+  - MJObjection (1.7.1)
 
 DEPENDENCIES:
-  - MJObjection/Swift (from `../`)
+  - MJObjection (from `../`)
 
 EXTERNAL SOURCES:
   MJObjection:
-    :path: ../
+    :path: "../"
 
 SPEC CHECKSUMS:
-  MJObjection: 0437f73de2742dffed419cb7e181d3c3eb360e7c
+  MJObjection: b87f00dc5efdefbff7b42f3ad4a4d7795e58ba82
 
-PODFILE CHECKSUM: 5b9970646afaa166a15ab33395df525cceff1083
+PODFILE CHECKSUM: d829387e0761ca02fa0051e7a0a8155c58226805
 
-COCOAPODS: 1.4.0
+COCOAPODS: 1.6.0.beta.2
