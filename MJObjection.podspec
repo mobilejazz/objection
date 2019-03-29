@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
     s.name             = 'MJObjection'
-    s.version          = '1.7.0'
+    s.version          = '1.7.1'
     s.summary          = 'A lightweight dependency injection framework for Objective-C.'
     
     # This description is used to generate tags and improve search results.
